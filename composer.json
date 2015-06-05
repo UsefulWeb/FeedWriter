@@ -41,13 +41,9 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "classmap": [
-            "ATOM.php",
-            "Feed.php",
-            "Item.php",
-            "RSS1.php",
-            "RSS2.php"
-        ]
+        "psr-0": {
+            "FeedWriter": "feedwriter/"
+        }
     },
     "require" : {
         "php": ">=5.3.0"
